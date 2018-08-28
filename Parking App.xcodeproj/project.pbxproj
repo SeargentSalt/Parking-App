@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1E09AA2621344F5500297A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AA2521344F5500297A4D /* AppDelegate.swift */; };
-		1E09AA2821344F5500297A4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AA2721344F5500297A4D /* ViewController.swift */; };
+		1E09AA2821344F5500297A4D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AA2721344F5500297A4D /* MainTabBarController.swift */; };
 		1E09AA2E21344F5500297A4D /* Parking_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AA2C21344F5500297A4D /* Parking_App.xcdatamodeld */; };
 		1E09AA3021344F5500297A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E09AA2F21344F5500297A4D /* Assets.xcassets */; };
 		1E09AA3321344F5500297A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E09AA3121344F5500297A4D /* LaunchScreen.storyboard */; };
+		1E09AA3D2134E41F00297A4D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AA3C2134E41F00297A4D /* HomeViewController.swift */; };
+		1E09AA3F2134E47400297A4D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AA3E2134E47400297A4D /* ChatViewController.swift */; };
+		1E09AA4221359FAA00297A4D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AA4121359FAA00297A4D /* ProfileViewController.swift */; };
+		1E09AA4421359FC500297A4D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AA4321359FC500297A4D /* SettingsViewController.swift */; };
+		1E09AA4621359FDE00297A4D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AA4521359FDE00297A4D /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E09AA2221344F5500297A4D /* Parking App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parking App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E09AA2521344F5500297A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E09AA2721344F5500297A4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E09AA2721344F5500297A4D /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		1E09AA2D21344F5500297A4D /* Parking_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Parking_App.xcdatamodel; sourceTree = "<group>"; };
 		1E09AA2F21344F5500297A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E09AA3221344F5500297A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E09AA3421344F5500297A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E09AA3C2134E41F00297A4D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1E09AA3E2134E47400297A4D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		1E09AA4121359FAA00297A4D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1E09AA4321359FC500297A4D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1E09AA4521359FDE00297A4D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		1E09AA2421344F5500297A4D /* Parking App */ = {
 			isa = PBXGroup;
 			children = (
+				1E09AA4021359F4500297A4D /* TabBarFiles */,
 				1E09AA2521344F5500297A4D /* AppDelegate.swift */,
-				1E09AA2721344F5500297A4D /* ViewController.swift */,
+				1E09AA2721344F5500297A4D /* MainTabBarController.swift */,
 				1E09AA2F21344F5500297A4D /* Assets.xcassets */,
 				1E09AA3121344F5500297A4D /* LaunchScreen.storyboard */,
 				1E09AA3421344F5500297A4D /* Info.plist */,
 				1E09AA2C21344F5500297A4D /* Parking_App.xcdatamodeld */,
 			);
 			path = "Parking App";
+			sourceTree = "<group>";
+		};
+		1E09AA4021359F4500297A4D /* TabBarFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1E09AA3C2134E41F00297A4D /* HomeViewController.swift */,
+				1E09AA3E2134E47400297A4D /* ChatViewController.swift */,
+				1E09AA4121359FAA00297A4D /* ProfileViewController.swift */,
+				1E09AA4321359FC500297A4D /* SettingsViewController.swift */,
+				1E09AA4521359FDE00297A4D /* MapViewController.swift */,
+			);
+			path = TabBarFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E09AA2821344F5500297A4D /* ViewController.swift in Sources */,
+				1E09AA2821344F5500297A4D /* MainTabBarController.swift in Sources */,
 				1E09AA2E21344F5500297A4D /* Parking_App.xcdatamodeld in Sources */,
+				1E09AA4421359FC500297A4D /* SettingsViewController.swift in Sources */,
+				1E09AA4621359FDE00297A4D /* MapViewController.swift in Sources */,
 				1E09AA2621344F5500297A4D /* AppDelegate.swift in Sources */,
+				1E09AA3F2134E47400297A4D /* ChatViewController.swift in Sources */,
+				1E09AA3D2134E41F00297A4D /* HomeViewController.swift in Sources */,
+				1E09AA4221359FAA00297A4D /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
