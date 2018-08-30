@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import GoogleMaps
+import GooglePlaces
 		
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,6 +24,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         let mainVC = MainTabBarController()
         window?.rootViewController = mainVC
+        
+        //AIzaSyC317tOdvt5HEples-U2PuCz0r1ch4vin8
+        
+        GMSServices.provideAPIKey("AIzaSyC317tOdvt5HEples-U2PuCz0r1ch4vin8")
+        GMSPlacesClient.provideAPIKey("AIzaSyC317tOdvt5HEples-U2PuCz0r1ch4vin8")
         
         return true
     }
